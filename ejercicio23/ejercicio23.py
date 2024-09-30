@@ -1,4 +1,4 @@
-from arbol_avl23 import BinaryTree
+from ejercicio23.arbol_avl23 import BinaryTree
 
 criaturas = [
     {

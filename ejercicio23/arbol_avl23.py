@@ -1,5 +1,5 @@
 
-from cola import Queue
+from ejercicio23.cola import Queue
 
 class BinaryTree:
 
