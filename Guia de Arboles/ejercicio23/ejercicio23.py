@@ -1,4 +1,4 @@
-from ejercicio23.arbol_avl23 import BinaryTree
+from arbol_avl23 import BinaryTree
 
 criaturas = [
     {
@@ -190,7 +190,7 @@ for criatura in criaturas:
 #arbol.modificarCapturas('Jabali de Erimanto', 'Heracles')
 
 #punto i)
-#arbol.proximity_search('Ce')
+arbol.proximity_search('Ce')
 
 #punto j)
 #arbol.eliminarCriaturas('Basilisco')
@@ -208,5 +208,7 @@ for criatura in criaturas:
 #arbol.por_nivel_perso()
 
 #punto n)
-#arbol.criaturas_capturadas_por_in("Heracles")
+arbol.criaturas_capturadas_por_in("Heracles")
 #arbol.criaturas_capturadas_por_preorden("Heracles")    
+
+
