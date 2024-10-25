@@ -184,13 +184,13 @@ for criatura in criaturas:
 #arbol.criaturas_sin_derrotar()
 
 #punto g) y h)
-#arbol.modificarCapturas('Cerbero', 'Heracles')
-#arbol.modificarCapturas('Toro de Creta', 'Heracles')
-#arbol.modificarCapturas('Cierva de Cerinea', 'Heracles')
-#arbol.modificarCapturas('Jabali de Erimanto', 'Heracles')
+arbol.modificarCapturas('Cerbero', 'Heracles')
+arbol.modificarCapturas('Toro de Creta', 'Heracles')
+arbol.modificarCapturas('Cierva de Cerinea', 'Heracles')
+arbol.modificarCapturas('Jabali de Erimanto', 'Heracles')
 
 #punto i)
-arbol.proximity_search('Ce')
+#arbol.proximity_search('Ce')
 
 #punto j)
 #arbol.eliminarCriaturas('Basilisco')
@@ -204,8 +204,8 @@ arbol.proximity_search('Ce')
 #arbol.inorden()
 
 #punto m)
-#arbol.by_level()
-#arbol.por_nivel_perso()
+arbol.by_level()
+arbol.por_nivel_perso()
 
 #punto n)
 arbol.criaturas_capturadas_por_in("Heracles")
